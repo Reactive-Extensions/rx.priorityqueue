@@ -240,6 +240,7 @@ console.log(`Priority queue length is ${q.length}`);
 We appreciate any contributions by the community as long as they abide by the [Code of Conduct](code-of-conduct.md).
 
 Want to get started?  Here are some ways you can get involved.
+
 1. Documentation
 
     - Examples
