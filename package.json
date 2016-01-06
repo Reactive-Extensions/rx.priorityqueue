@@ -1,0 +1,29 @@
+{
+  "name": "rx.priorityqueue",
+  "version": "1.0.0",
+  "description": "The PriorityQueue from the RxJS library as a standalone module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reactive-Extensions/rx.priorityqueue.git"
+  },
+  "keywords": [
+    "Priority",
+    "Queue",
+    "Rx",
+    "RxJS"
+  ],
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reactive-Extensions/rx.priorityqueue/issues"
+  },
+  "homepage": "https://github.com/Reactive-Extensions/rx.priorityqueue#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
