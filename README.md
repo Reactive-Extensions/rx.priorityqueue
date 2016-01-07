@@ -43,7 +43,7 @@ console.log(`dequeued value is ${q.dequeue()}`);
 // => dequeued value is 44
 ```
 
-You can also use your own custom comparer for complex objects to determine order.  To do that, simply pass in a function which takes two arguments, the left hand side and right hand side.  By default, the comparer function which is used looks like the following where if the left is greater than it should be positive, less than, should be negative and equal should be zero:
+You can also use your own custom comparer for complex objects to determine order.  To do that, simply pass in a function which takes two arguments, the left hand side and right hand side.  By default, the comparer function which is used looks like the following where if the left is greater than it should be positive, less than, should be negative and equal should be zero.  Else, if you want to have it on the object compared directly, simply implement `compareTo` on the object to be compared and then it will work.
 
 ```js
 function defaultComparer (x, y) {

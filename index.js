@@ -1,6 +1,11 @@
 'use strict';
 
-function defaultComparer(x, y) { return x > y ? 1 : x < y ? -1 : 0; }
+function defaultComparer(x, y) {
+  if (x.compareTo) { return x.compareTo(y); }
+  if (x > y) { return 1; }
+  if (y > x) { return -1; }
+  return 0;
+}
 
 function IndexedItem(id, value, cmp) {
   this.id = id;
